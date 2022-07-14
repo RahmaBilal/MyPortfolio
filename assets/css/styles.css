@@ -1,15 +1,59 @@
+:root {
+    --font-info: #D1C4BFff;
+    --feldgrau: #47544Aff;
+    --cadet-grey: #8C9BA4ff;
+    --nickel: #6C7168ff;
+    --background-color: #3E422Fff;
+    --rifle-green-2: #424D41ff;
+    --font-hover: #BD8C63ff;
+    --light-slate-gray: #73929Fff;
+}
+
+
+html {
+    font-size: 10px;
+
+}
+
 body{
     margin: 0;
+    font-size: 10px;
+    background-color: var(--background-color);
 }
 
 .nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-link {
+    margin: 1.6rem;
+
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--font-info);
+
+}
+
+.nav-link a:hover {
+    color: var(--font-hover)
+
 }
 
 @media screen and (max-width: 596px) {
-    .nav-container {
+    .nav-container, .nav-links-container {
        flex-direction: column; 
        align-items: center;
     }
