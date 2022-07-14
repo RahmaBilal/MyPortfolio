@@ -25,3 +25,6 @@ Now I added the pictures for the projects and attached a link to show that they 
 <img width="1440" alt="Screenshot 2022-07-14 at 22 31 52" src="https://user-images.githubusercontent.com/108250116/179090462-dc00b63d-b3fa-46e8-8076-3350965b168e.png">
 
 <img width="1440" alt="Screenshot 2022-07-14 at 22 36 02" src="https://user-images.githubusercontent.com/108250116/179090643-053e8e02-b33f-4779-81ff-f3cf0cbf2c12.png">
+
+The 'About' and 'Contact' section are at the bottom of the page connected to the nav bar. It is shown with the screenshot below. 
+<img width="1440" alt="Screenshot 2022-07-14 at 23 41 24" src="https://user-images.githubusercontent.com/108250116/179100381-fe1844ed-7d3d-4238-b620-243e9d54fced.png">
