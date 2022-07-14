@@ -12,4 +12,4 @@ I started this webpage by first creating a repository, then using Visual Studio 
 
 I set up the nav tags in the header and made it so that whenever the contents were viewed, whether it was on a phone or laptop, the respected screen sizing would appear. Therefore, it would automatically resize according to the device screen.
 
-After completing the resizing, I went onto sorting out the design of the page and where everything would go, especially if I wanted the nav bar to be in the centre, I was able to put it in the middle and made it so that when someone would hover over a certain part, the color would change. I then changed the background color so that the nav bar was visible 
+After completing the resizing, I went onto sorting out the design of the page and where everything would go. I made it so that when someone would hover over a certain part of the nav bar, the color of the text would change. I then changed the background color of the webpage so that the nav bar was visible. I also made sure that when the webpage was viewed on different screens, the nav bar would change from being in a row, in the center of the page to being a column.

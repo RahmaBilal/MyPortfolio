@@ -1,61 +1,91 @@
 :root {
-    --font-info: #D1C4BFff;
-    --feldgrau: #47544Aff;
-    --cadet-grey: #8C9BA4ff;
-    --nickel: #6C7168ff;
-    --background-color: #3E422Fff;
-    --rifle-green-2: #424D41ff;
-    --font-hover: #BD8C63ff;
-    --light-slate-gray: #73929Fff;
+  --font-info: #d1c4bfff;
+  --feldgrau: #47544aff;
+  --cadet-grey: #8c9ba4ff;
+  --nickel: #6c7168ff;
+  --background-color: #3e422fff;
+  --rifle-green-2: #424d41ff;
+  --font-hover: #bd8c63ff;
+  --light-slate-gray: #73929fff;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 html {
-    font-size: 10px;
-
+  font-size: 10px;
 }
 
-body{
-    margin: 0;
-    font-size: 10px;
-    background-color: var(--background-color);
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-size: 10px;
+  background-color: var(--background-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6.8rem;
+}
+
+.main {
+  margin: 6.8rem;
+}
+
+.profile-picture{
+    display: flex;
+    resize: width: 600px;
+    height:600px;
+    flex-direction: column;
+    justify-content: right;
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .nav-links-container {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-link {
-    margin: 1.6rem;
-
+  margin: 1.6rem;
 }
 
 .nav-link a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: var(--font-info);
-
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--font-info);
 }
 
 .nav-link a:hover {
-    color: var(--font-hover)
+  color: var(--font-hover);
+}
 
+.dash {
+  color: var(--font-info);
+  align-items: center;
 }
 
 @media screen and (max-width: 596px) {
-    .nav-container, .nav-links-container {
-       flex-direction: column; 
-       align-items: center;
-    }
+  .nav-container,
+  .nav-links-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
+.header {
+  position: static;
+  height: 100%;
+}
